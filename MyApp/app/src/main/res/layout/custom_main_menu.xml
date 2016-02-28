@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/heading"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_spotify_streamer"
+            style="@style/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_name_spotify_streamer" />
+
+        <Button
+            android:id="@+id/button_scores_app"
+            style="@style/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_spotify_streamer"
+            android:text="@string/button_name_scores_app" />
+
+        <Button
+            android:id="@+id/button_library_app"
+            style="@style/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_scores_app"
+            android:text="@string/button_name_library_app" />
+
+        <Button
+            android:id="@+id/button_build_it_bigger"
+            style="@style/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_library_app"
+            android:text="@string/button_name_build_it_bigger" />
+
+        <Button
+            android:id="@+id/button_xyz_reader"
+            style="@style/orangeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_build_it_bigger"
+            android:text="@string/button_name_xyz_reader" />
+
+        <Button
+            android:id="@+id/button_capstone"
+            style="@style/redButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_xyz_reader"
+            android:text="@string/button_name_capstone" />
+
+    </RelativeLayout>
+</merge>
